@@ -1,0 +1,114 @@
+body {
+    background-color: cadetblue;
+}
+
+img.serafim {
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
+    /*padding: 1.5%; 
+    margin-left: 50%;
+    margin-right: 50%;*/
+    margin-left: 45%;
+    width: 170px;
+}
+
+img.serafim:hover { /* Flip an image*/
+    transform: scaleX(-1);
+}
+
+h1 {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2cm;
+    padding: 0.5%;
+}
+
+h2 {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;  
+    text-align: center;  
+    font-size: 0.8cm;
+}
+
+h3 {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;  
+    text-align: center;  
+    font-size: 0.8cm;
+}
+
+p {
+    /*background-color: white; */
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify; /*Pode ser justify, center, ...*/
+    font-weight: bold; 
+}
+
+.pIcons {
+    align-items: center;   
+    border-width: 0cm; 
+}
+
+.orgLinks {
+    /*background-color: white; */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; /*Pode ser justify, center, ...*/
+    font-weight: bold;
+}
+
+.lIcons {
+    background-color: transparent;
+}
+
+.orgIcons {
+    /*border-radius: 10%;
+    image-rendering: optimizeQuality;
+    padding: 1.5%; 
+    margin-left: 50%;
+    margin-right: 50%;*/
+    display: inline-block;
+    align-items: center;
+    margin-left: 11%;
+    margin-right: 5%;
+    width: 30px;
+}
+
+.orgIcons:hover {
+    /*border-radius: 10%;
+    image-rendering: optimizeQuality;
+    padding: 1.5%; 
+    margin-left: 50%;
+    margin-right: 50%;*/
+    margin-left: 11%;
+    margin-right: 5%; 
+    align-items: center;
+    width: 40px;
+}
+
+a {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    align-content: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: cadetblue;
+    font-size: 0.6cm;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
